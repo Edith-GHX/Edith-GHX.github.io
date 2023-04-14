@@ -31,6 +31,7 @@
             <span class="title-english">Laboratory of Artificial Intelligence in Medical Imaging</span>
           </div>
         </div>
+
       </div>
 
       <div class="about container w3-padding-large" id="about">
