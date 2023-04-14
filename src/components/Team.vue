@@ -31,7 +31,7 @@
         </v-toolbar>
       </header>
 
-      <div class="content">
+      <div class="content" style="margin-bottom: 100px;">
         <div class="mt-6">
           <div class="card-title" style="justify-content: space-between;cursor: pointer;">
             <h1 class="text-h5 pl-4" style="color: rgb(24, 78, 129);"><span>教</span>授</h1>
@@ -79,11 +79,13 @@
         </div>
       </div>
       <v-footer
-        class="font-weight-medium primary lighten-3 mt-16"
+        absolute
+        class="font-weight-medium primary lighten-3 pb-0"
+        style="height: 50px;"
       >
         <v-col
           cols="12"
-          class="text-center white--text"
+          class="text-center white--text pb-0 pt-0"
         >
           {{ new Date().getFullYear() }} — 杭州电子科技大学智能信息处理实验室
         </v-col>

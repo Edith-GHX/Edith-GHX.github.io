@@ -24,7 +24,7 @@
           </v-toolbar>
         <div class="title-container">
           <!-- <p class="pre-title">One stop for global success</p> -->
-          <img src="../images/logo.png" sizes="148px">
+          <img src="../images/logo.png" class="mt-2">
           <div class="title">
             <span>医学影像人工智能实验室</span>
             <br>
@@ -284,12 +284,12 @@
       </div>
       <v-footer
         absolute
-        class="font-weight-medium primary lighten-3"
+        class="font-weight-medium primary lighten-3 pb-0"
         style="height: 50px;"
       >
         <v-col
           cols="12"
-          class="text-center white--text"
+          class="text-center white--text pb-0 pt-0"
         >
           {{ new Date().getFullYear() }} — 杭州电子科技大学智能信息处理实验室
         </v-col>
@@ -311,8 +311,8 @@
       toSearch() {
         this.$router.push('/Search');
       }
-    }
-}
+    },
+} 
   </script>
   
   <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -541,6 +541,7 @@
     display: flex;
     gap: 20px;
     padding: 50px 25px;
+    margin-bottom: 50px;
   }
   
   .about-us {

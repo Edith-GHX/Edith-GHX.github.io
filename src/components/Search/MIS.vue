@@ -31,7 +31,7 @@
         </v-toolbar>
       </header>
   
-      <div class="content">
+      <div class="content" style="margin-bottom: 100px;">
         <v-tabs background-color="transparent" style="margin-top: 20px; margin-left: 50px; margin-right: 50px; width: auto;">
           <v-tab class="text-h5 font-weight-bold" to="/Search/All"> 所有方向 </v-tab>
           <v-tab class="text-h5 font-weight-bold" to="/Search/MIS"> 医学图像分割 </v-tab>
@@ -83,11 +83,13 @@
   
   
       <v-footer
-        class="font-weight-medium primary lighten-3 mt-16"
+        absolute
+        class="font-weight-medium primary lighten-3 pb-0"
+        style="height: 50px;"
       >
         <v-col
           cols="12"
-          class="text-center white--text"
+          class="text-center white--text pb-0 pt-0"
         >
           {{ new Date().getFullYear() }} — 杭州电子科技大学智能信息处理实验室
         </v-col>

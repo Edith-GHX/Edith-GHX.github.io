@@ -31,9 +31,9 @@
       </v-toolbar>
     </header>
 
-    <div class="content">
+    <div class="content" style="margin-bottom: 100px;">
       <h1 class="text-h5 pl-8 mt-8" style="color: rgb(24, 78, 129);">联系我们</h1>
-      <div style="display: flex;">
+      <div style="display: flex; flex-direction: row;flex-wrap: wrap;">
         <div style="display: flex; flex-direction: column; gap: 16px;" class="ml-8 mt-6">
           <div style="display: flex; gap:10px;">
             <v-icon style="font-size: 30px;">mdi-map-marker</v-icon>
@@ -53,18 +53,20 @@
           </div>
         </div>
         <div class="ml-12 mt-6">
-          <v-img src="../images/location.png" style="width:70%"></v-img>
+          <v-img src="../images/location.png" width="700px"></v-img>
         </div>
       </div>
     </div>
 
 
     <v-footer
-      class="font-weight-medium primary lighten-3 mt-16"
+      absolute
+      class="font-weight-medium primary lighten-3 pb-0"
+      style="height: 50px;"
     >
       <v-col
         cols="12"
-        class="text-center white--text"
+        class="text-center white--text pb-0 pt-0"
       >
         {{ new Date().getFullYear() }} — <strong>杭州电子科技大学智能信息处理实验室</strong>
       </v-col>

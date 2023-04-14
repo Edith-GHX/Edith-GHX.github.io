@@ -31,7 +31,7 @@
       </v-toolbar>
     </header>
 
-    <div class="content ml-8 mr-8 mt-8">
+    <div class="content ml-8 mr-8 mt-8" style="margin-bottom: 100px;">
       <v-tabs 
         vertical
       >
@@ -164,11 +164,13 @@
 
 
     <v-footer
-      class="font-weight-medium primary lighten-3 mt-16"
+      absolute
+      class="font-weight-medium primary lighten-3 pb-0"
+      style="height: 50px;"
     >
       <v-col
         cols="12"
-        class="text-center white--text"
+        class="text-center white--text pb-0 pt-0"
       >
         {{ new Date().getFullYear() }} — 杭州电子科技大学智能信息处理实验室
       </v-col>
