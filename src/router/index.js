@@ -34,7 +34,7 @@ const router = new VueRouter({
       component: News,
     },
     {
-      path: '/Search/All',
+      path: '/Search',
       component: Search,
     },
     {

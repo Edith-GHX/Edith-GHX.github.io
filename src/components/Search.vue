@@ -14,7 +14,7 @@
               <v-tab to="/Home">
                 <span style="font-size: 1.1rem; font-family: Roboto,sans-serif; color: white;">首页</span>
               </v-tab>
-              <v-tab to="/Search/ALL" class="pl-4 pr-4">
+              <v-tab to="/Search" class="pl-4 pr-4">
                 <span style="font-size: 1.1rem; font-family: Roboto,sans-serif; color: white;">研究方向</span>
               </v-tab>
               <v-tab to="/News" class="pl-4 pr-4">
@@ -33,7 +33,7 @@
   
       <div class="content" style="margin-bottom: 100px;">
         <v-tabs background-color="transparent" style="margin-top: 20px; margin-left: 50px; margin-right: 50px; width: auto;">
-          <v-tab class="text-h5 font-weight-bold" to="/Search/All"> 所有方向 </v-tab>
+          <v-tab class="text-h5 font-weight-bold" to="/Search"> 研究方向 </v-tab>
           <v-tab class="text-h5 font-weight-bold" to="/Search/MIS"> 医学图像分割 </v-tab>
           <v-tab class="text-h5 font-weight-bold" to="/Search/DD"> 疾病诊断预测 </v-tab>
           <v-tab class="text-h5 font-weight-bold" to="/Search/OD"> 医学目标检测 </v-tab>

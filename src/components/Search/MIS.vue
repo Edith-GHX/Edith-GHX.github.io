@@ -33,7 +33,7 @@
   
       <div class="content" style="margin-bottom: 100px;">
         <v-tabs background-color="transparent" style="margin-top: 20px; margin-left: 50px; margin-right: 50px; width: auto;">
-          <v-tab class="text-h5 font-weight-bold" to="/Search/All"> 所有方向 </v-tab>
+          <v-tab class="text-h5 font-weight-bold" to="/Search"> 研究方向 </v-tab>
           <v-tab class="text-h5 font-weight-bold" to="/Search/MIS"> 医学图像分割 </v-tab>
           <v-tab class="text-h5 font-weight-bold" to="/Search/DD"> 疾病诊断预测 </v-tab>
           <v-tab class="text-h5 font-weight-bold" to="/Search/OD"> 医学目标检测 </v-tab>

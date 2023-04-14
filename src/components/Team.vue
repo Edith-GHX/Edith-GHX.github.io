@@ -14,7 +14,7 @@
               <v-tab to="/Home">
                 <span style="font-size: 1.1rem; font-family: Roboto,sans-serif; color: white;">首页</span>
               </v-tab>
-              <v-tab to="/Search/ALL" class="pl-4 pr-4">
+              <v-tab to="/Search" class="pl-4 pr-4">
                 <span style="font-size: 1.1rem; font-family: Roboto,sans-serif; color: white;">研究方向</span>
               </v-tab>
               <v-tab to="/News" class="pl-4 pr-4">
