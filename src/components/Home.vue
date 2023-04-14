@@ -24,7 +24,7 @@
           </v-toolbar>
         <div class="title-container">
           <!-- <p class="pre-title">One stop for global success</p> -->
-          <img src="../images/logo.png" class="mt-2">
+          <v-img src="../images/logo.png" class="mt-2" width="74px" height="74px"></v-img>
           <div class="title">
             <span>医学影像人工智能实验室</span>
             <br>
