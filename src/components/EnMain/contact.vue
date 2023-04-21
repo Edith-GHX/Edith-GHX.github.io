@@ -38,94 +38,98 @@
   
       <div class="content" style="margin-bottom: 100px;">
         <h1 class="text-h4 pl-8 mt-8" style="color: rgb(24, 78, 129);font-weight:600">Contact Us</h1>
-        <div class="ml-8 mr-8 mt-8" style="display: flex; flex-direction: column;margin: auto;">
-          <div class="text-h6 col cyan--text" style="display: flex;">
-            <v-icon style="font-size: 16px" class="notranslate mr-2 mdi theme--light cyan--text">mdi-circle</v-icon>
-            Global Recruitment of Students
-          </div>
-          <div class="pa-0 col col-12">
-            <hr class="v-divider theme--light">
-          </div>
-          <div style="display: flex; flex-direction: row;flex-wrap: wrap;">
-            <div style="display: flex; flex-direction: column; gap: 16px;" class="ml-8 mt-6">
-              <div style="display: flex; gap:10px;">
-                <v-icon style="font-size: 30px;">mdi-map-marker</v-icon>
-                <div style="width: 300px;">浙江省杭州市杭州经济开发区白杨街道2号大街1158号 杭州电子科技大学</div>
+        <div style="display: flex;flex-direction: row;">
+          <div style="width: 50%;">
+            <div class="ml-8 mr-8 mt-8" style="display: flex; flex-direction: column;margin: auto;">
+              <div class="text-h6 col cyan--text" style="display: flex;">
+                <v-icon style="font-size: 16px" class="notranslate mr-2 mdi theme--light cyan--text">mdi-circle</v-icon>
+                Global Recruitment of Students 
               </div>
-              <div style="display: flex; gap:10px;">
-                <v-icon style="font-size: 30px;">mdi-account-box</v-icon>
-                <div style="width: 300px;">联系人：孙老师</div>
+              <div class="pa-0 col col-12">
+                <hr class="v-divider theme--light">
               </div>
-              <div style="display: flex; gap:10px;">
-                <v-icon style="font-size: 30px;">mdi-email</v-icon>
-                <div style="width: 300px;">syq@hdu.edu.cn</div>
-              </div>
-              <div style="display: flex; gap:10px;">
-                <v-icon style="font-size: 30px;">mdi-phone</v-icon>
-                <div style="width: 300px;">0571-86878691</div>
-              </div>
-            </div>
-            <div class="ml-12 mt-6">
-              <v-img src="../../images/location.png" width="500px"></v-img>
-            </div>
-          </div>
-        </div>
-        <div class="ml-8 mr-8 mt-8" style="display: flex; flex-direction: column;margin: auto;">
-          <div class="text-h6 col indigo--text" style="display: flex;">
-            <v-icon style="font-size: 16px" class="notranslate mr-2 mdi theme--light indigo--text">mdi-circle</v-icon>
-            Global Recruitment of Teachers
-          </div>
-          <div class="pa-0 col col-12">
-            <hr class="v-divider theme--light">
-          </div>
-          <div style="display: flex; flex-direction: row;flex-wrap: wrap;">
-            <div style="display: flex; flex-direction: column; gap: 16px;" class="ml-8 mt-6">
-              <div style="display: flex; gap:10px;">
-                <v-icon style="font-size: 30px;">mdi-map-marker</v-icon>
-                <div style="width: 300px;">浙江省杭州市杭州经济开发区白杨街道2号大街1158号 杭州电子科技大学</div>
-              </div>
-              <div style="display: flex; gap:10px;">
-                <v-icon style="font-size: 30px;">mdi-account-box</v-icon>
-                <div style="width: 300px;">联系人：孙老师</div>
-              </div>
-              <div style="display: flex; gap:10px;">
-                <v-icon style="font-size: 30px;">mdi-email</v-icon>
-                <div style="width: 300px;">syq@hdu.edu.cn</div>
-              </div>
-              <div style="display: flex; gap:10px;">
-                <v-icon style="font-size: 30px;">mdi-phone</v-icon>
-                <div style="width: 300px;">0571-86878691</div>
+              <div style="display: flex; flex-direction: row;flex-wrap: wrap;">
+                <div style="display: flex; flex-direction: column; gap: 16px;" class="ml-8 mt-6">
+                  <div style="display: flex; gap:10px;">
+                    <v-icon style="font-size: 30px;">mdi-map-marker</v-icon>
+                    <div style="width: 300px;">浙江省杭州市杭州经济开发区白杨街道2号大街1158号 杭州电子科技大学</div>
+                  </div>
+                  <div style="display: flex; gap:10px;">
+                    <v-icon style="font-size: 30px;">mdi-account-box</v-icon>
+                    <div style="width: 300px;">联系人：孙老师</div>
+                  </div>
+                  <div style="display: flex; gap:10px;">
+                    <v-icon style="font-size: 30px;">mdi-email</v-icon>
+                    <div style="width: 300px;">syq@hdu.edu.cn</div>
+                  </div>
+                  <div style="display: flex; gap:10px;">
+                    <v-icon style="font-size: 30px;">mdi-phone</v-icon>
+                    <div style="width: 300px;">0571-86878691</div>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="ml-8 mr-8 mt-8" style="display: flex; flex-direction: column;margin: auto;">
-          <div class="text-h6 col red--text" style="display: flex;">
-            <v-icon style="font-size: 16px" class="notranslate mr-2 mdi theme--light red--text">mdi-circle</v-icon>
-            Cooperation 
-          </div>
-          <div class="pa-0 col col-12">
-            <hr class="v-divider theme--light">
-          </div>
-          <div style="display: flex; flex-direction: row;flex-wrap: wrap;">
-            <div style="display: flex; flex-direction: column; gap: 16px;" class="ml-8 mt-6">
-              <div style="display: flex; gap:10px;">
-                <v-icon style="font-size: 30px;">mdi-map-marker</v-icon>
-                <div style="width: 300px;">浙江省杭州市杭州经济开发区白杨街道2号大街1158号 杭州电子科技大学</div>
+            <div class="ml-8 mr-8 mt-8" style="display: flex; flex-direction: column;margin: auto;">
+              <div class="text-h6 col indigo--text" style="display: flex;">
+                <v-icon style="font-size: 16px" class="notranslate mr-2 mdi theme--light indigo--text">mdi-circle</v-icon>
+                Global Recruitment of Teachers 
               </div>
-              <div style="display: flex; gap:10px;">
-                <v-icon style="font-size: 30px;">mdi-account-box</v-icon>
-                <div style="width: 300px;">联系人：孙老师</div>
+              <div class="pa-0 col col-12">
+                <hr class="v-divider theme--light">
               </div>
-              <div style="display: flex; gap:10px;">
-                <v-icon style="font-size: 30px;">mdi-email</v-icon>
-                <div style="width: 300px;">syq@hdu.edu.cn</div>
-              </div>
-              <div style="display: flex; gap:10px;">
-                <v-icon style="font-size: 30px;">mdi-phone</v-icon>
-                <div style="width: 300px;">0571-86878691</div>
+              <div style="display: flex; flex-direction: row;flex-wrap: wrap;">
+                <div style="display: flex; flex-direction: column; gap: 16px;" class="ml-8 mt-6">
+                  <div style="display: flex; gap:10px;">
+                    <v-icon style="font-size: 30px;">mdi-map-marker</v-icon>
+                    <div style="width: 300px;">浙江省杭州市杭州经济开发区白杨街道2号大街1158号 杭州电子科技大学</div>
+                  </div>
+                  <div style="display: flex; gap:10px;">
+                    <v-icon style="font-size: 30px;">mdi-account-box</v-icon>
+                    <div style="width: 300px;">联系人：孙老师</div>
+                  </div>
+                  <div style="display: flex; gap:10px;">
+                    <v-icon style="font-size: 30px;">mdi-email</v-icon>
+                    <div style="width: 300px;">syq@hdu.edu.cn</div>
+                  </div>
+                  <div style="display: flex; gap:10px;">
+                    <v-icon style="font-size: 30px;">mdi-phone</v-icon>
+                    <div style="width: 300px;">0571-86878691</div>
+                  </div>
+                </div>
               </div>
             </div>
+            <div class="ml-8 mr-8 mt-8" style="display: flex; flex-direction: column;margin: auto;">
+              <div class="text-h6 col red--text" style="display: flex;">
+                <v-icon style="font-size: 16px" class="notranslate mr-2 mdi theme--light red--text">mdi-circle</v-icon>
+                Cooperation 
+              </div>
+              <div class="pa-0 col col-12">
+                <hr class="v-divider theme--light">
+              </div>
+              <div style="display: flex; flex-direction: row;flex-wrap: wrap;">
+                <div style="display: flex; flex-direction: column; gap: 16px;" class="ml-8 mt-6">
+                  <div style="display: flex; gap:10px;">
+                    <v-icon style="font-size: 30px;">mdi-map-marker</v-icon>
+                    <div style="width: 300px;">浙江省杭州市杭州经济开发区白杨街道2号大街1158号 杭州电子科技大学</div>
+                  </div>
+                  <div style="display: flex; gap:10px;">
+                    <v-icon style="font-size: 30px;">mdi-account-box</v-icon>
+                    <div style="width: 300px;">联系人：孙老师</div>
+                  </div>
+                  <div style="display: flex; gap:10px;">
+                    <v-icon style="font-size: 30px;">mdi-email</v-icon>
+                    <div style="width: 300px;">syq@hdu.edu.cn</div>
+                  </div>
+                  <div style="display: flex; gap:10px;">
+                    <v-icon style="font-size: 30px;">mdi-phone</v-icon>
+                    <div style="width: 300px;">0571-86878691</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ml-12 mt-16" style="width: 40%;">
+            <v-img src="../../images/location.png" width="auto"></v-img>
           </div>
         </div>
       </div>
