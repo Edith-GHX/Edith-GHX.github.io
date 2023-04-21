@@ -14,10 +14,13 @@
             <v-tab to="/Home">
               <span style="font-size: 1.1rem; font-family: Roboto,sans-serif; color: white;">首页</span>
             </v-tab>
-            <v-tab to="/Search" class="pl-4 pr-4">
+            <v-tab to="/News" class="pl-4 pr-4">
+              <span style="font-size: 1.1rem; font-family: Roboto,sans-serif; color: white;">新闻</span>
+            </v-tab>
+            <v-tab to="/Research" class="pl-4 pr-4">
               <span style="font-size: 1.1rem; font-family: Roboto,sans-serif; color: white;">研究方向</span>
             </v-tab>
-            <v-tab to="/News" class="pl-4 pr-4">
+            <v-tab to="/Results" class="pl-4 pr-4">
               <span style="font-size: 1.1rem; font-family: Roboto,sans-serif; color: white;">研究成果</span>
             </v-tab>
             <v-tab to="/Team" class="pl-4 pr-4">
@@ -26,34 +29,108 @@
             <v-tab to="/Contact" class="pl-4 pr-4">
               <span style="font-size: 1.1rem; font-family: Roboto,sans-serif; color: white;">联系我们</span>
             </v-tab>
+            <v-tab to="/en" class="pl-4 pr-4">
+              <span style="font-size: 1rem; font-family: Roboto,sans-serif; color: white; text-transform: none;">English</span>
+            </v-tab>
           </v-tabs>
-          </div>
+        </div>
       </v-toolbar>
     </header>
 
     <div class="content" style="margin-bottom: 100px;">
       <h1 class="text-h5 pl-8 mt-8" style="color: rgb(24, 78, 129);">联系我们</h1>
-      <div style="display: flex; flex-direction: row;flex-wrap: wrap;">
-        <div style="display: flex; flex-direction: column; gap: 16px;" class="ml-8 mt-6">
-          <div style="display: flex; gap:10px;">
-            <v-icon style="font-size: 30px;">mdi-map-marker</v-icon>
-            <div style="width: 300px;">浙江省杭州市杭州经济开发区白杨街道2号大街1158号 杭州电子科技大学</div>
+      <div style="display: flex;flex-direction: row;">
+        <div style="width: 50%;">
+          <div class="ml-8 mr-8 mt-8" style="display: flex; flex-direction: column;margin: auto;">
+            <div class="text-h6 col col-3 cyan--text" style="display: flex;">
+              <v-icon style="font-size: 16px" class="notranslate mr-2 mdi theme--light cyan--text">mdi-circle</v-icon>
+              招生 
+            </div>
+            <div class="pa-0 col col-12">
+              <hr class="v-divider theme--light">
+            </div>
+            <div style="display: flex; flex-direction: row;flex-wrap: wrap;">
+              <div style="display: flex; flex-direction: column; gap: 16px;" class="ml-8 mt-6">
+                <div style="display: flex; gap:10px;">
+                  <v-icon style="font-size: 30px;">mdi-map-marker</v-icon>
+                  <div style="width: 300px;">浙江省杭州市杭州经济开发区白杨街道2号大街1158号 杭州电子科技大学</div>
+                </div>
+                <div style="display: flex; gap:10px;">
+                  <v-icon style="font-size: 30px;">mdi-account-box</v-icon>
+                  <div style="width: 300px;">联系人：孙老师</div>
+                </div>
+                <div style="display: flex; gap:10px;">
+                  <v-icon style="font-size: 30px;">mdi-email</v-icon>
+                  <div style="width: 300px;">syq@hdu.edu.cn</div>
+                </div>
+                <div style="display: flex; gap:10px;">
+                  <v-icon style="font-size: 30px;">mdi-phone</v-icon>
+                  <div style="width: 300px;">0571-86878691</div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div style="display: flex; gap:10px;">
-            <v-icon style="font-size: 30px;">mdi-account-box</v-icon>
-            <div style="width: 300px;">联系人：孙老师</div>
+          <div class="ml-8 mr-8 mt-8" style="display: flex; flex-direction: column;margin: auto;">
+            <div class="text-h6 col col-3 indigo--text" style="display: flex;">
+              <v-icon style="font-size: 16px" class="notranslate mr-2 mdi theme--light indigo--text">mdi-circle</v-icon>
+              招聘 
+            </div>
+            <div class="pa-0 col col-12">
+              <hr class="v-divider theme--light">
+            </div>
+            <div style="display: flex; flex-direction: row;flex-wrap: wrap;">
+              <div style="display: flex; flex-direction: column; gap: 16px;" class="ml-8 mt-6">
+                <div style="display: flex; gap:10px;">
+                  <v-icon style="font-size: 30px;">mdi-map-marker</v-icon>
+                  <div style="width: 300px;">浙江省杭州市杭州经济开发区白杨街道2号大街1158号 杭州电子科技大学</div>
+                </div>
+                <div style="display: flex; gap:10px;">
+                  <v-icon style="font-size: 30px;">mdi-account-box</v-icon>
+                  <div style="width: 300px;">联系人：孙老师</div>
+                </div>
+                <div style="display: flex; gap:10px;">
+                  <v-icon style="font-size: 30px;">mdi-email</v-icon>
+                  <div style="width: 300px;">syq@hdu.edu.cn</div>
+                </div>
+                <div style="display: flex; gap:10px;">
+                  <v-icon style="font-size: 30px;">mdi-phone</v-icon>
+                  <div style="width: 300px;">0571-86878691</div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div style="display: flex; gap:10px;">
-            <v-icon style="font-size: 30px;">mdi-email</v-icon>
-            <div style="width: 300px;">syq@hdu.edu.cn</div>
-          </div>
-          <div style="display: flex; gap:10px;">
-            <v-icon style="font-size: 30px;">mdi-phone</v-icon>
-            <div style="width: 300px;">0571-86878691</div>
+          <div class="ml-8 mr-8 mt-8" style="display: flex; flex-direction: column;margin: auto;">
+            <div class="text-h6 col col-3 red--text" style="display: flex;">
+              <v-icon style="font-size: 16px" class="notranslate mr-2 mdi theme--light red--text">mdi-circle</v-icon>
+              合作 
+            </div>
+            <div class="pa-0 col col-12">
+              <hr class="v-divider theme--light">
+            </div>
+            <div style="display: flex; flex-direction: row;flex-wrap: wrap;">
+              <div style="display: flex; flex-direction: column; gap: 16px;" class="ml-8 mt-6">
+                <div style="display: flex; gap:10px;">
+                  <v-icon style="font-size: 30px;">mdi-map-marker</v-icon>
+                  <div style="width: 300px;">浙江省杭州市杭州经济开发区白杨街道2号大街1158号 杭州电子科技大学</div>
+                </div>
+                <div style="display: flex; gap:10px;">
+                  <v-icon style="font-size: 30px;">mdi-account-box</v-icon>
+                  <div style="width: 300px;">联系人：孙老师</div>
+                </div>
+                <div style="display: flex; gap:10px;">
+                  <v-icon style="font-size: 30px;">mdi-email</v-icon>
+                  <div style="width: 300px;">syq@hdu.edu.cn</div>
+                </div>
+                <div style="display: flex; gap:10px;">
+                  <v-icon style="font-size: 30px;">mdi-phone</v-icon>
+                  <div style="width: 300px;">0571-86878691</div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="ml-12 mt-6">
-          <v-img src="../images/location.png" width="700px"></v-img>
+        <div class="ml-12 mt-16" style="width: 40%;">
+          <v-img src="../images/location.png" width="auto"></v-img>
         </div>
       </div>
     </div>
@@ -68,7 +145,7 @@
         cols="12"
         class="text-center white--text pb-0 pt-0"
       >
-        {{ new Date().getFullYear() }} — <strong>杭州电子科技大学智能信息处理实验室</strong>
+        {{ new Date().getFullYear() }} — 杭州电子科技大学智能信息处理实验室
       </v-col>
     </v-footer>
   </div>

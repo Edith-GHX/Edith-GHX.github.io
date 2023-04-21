@@ -7,10 +7,13 @@
                 <v-tab to="/Home">
                   <span style="font-size: 1.1rem; font-family: Roboto,sans-serif; color: white;">首页</span>
                 </v-tab>
-                <v-tab to="/Search" class="pl-4 pr-4">
+                <v-tab to="/News" class="pl-4 pr-4">
+                  <span style="font-size: 1.1rem; font-family: Roboto,sans-serif; color: white;">新闻</span>
+                </v-tab>
+                <v-tab to="/Research" class="pl-4 pr-4">
                   <span style="font-size: 1.1rem; font-family: Roboto,sans-serif; color: white;">研究方向</span>
                 </v-tab>
-                <v-tab to="/News" class="pl-4 pr-4">
+                <v-tab to="/Results" class="pl-4 pr-4">
                   <span style="font-size: 1.1rem; font-family: Roboto,sans-serif; color: white;">研究成果</span>
                 </v-tab>
                 <v-tab to="/Team" class="pl-4 pr-4">
@@ -18,6 +21,9 @@
                 </v-tab>
                 <v-tab to="/Contact" class="pl-4 pr-4">
                   <span style="font-size: 1.1rem; font-family: Roboto,sans-serif; color: white;">联系我们</span>
+                </v-tab>
+                <v-tab to="/en" class="pl-4 pr-4">
+                  <span style="font-size: 1rem; font-family: Roboto,sans-serif; color: white; text-transform: none;">English</span>
                 </v-tab>
               </v-tabs>
               </div>
@@ -33,81 +39,13 @@
         </div>
       </div>
 
-      <div class="about container w3-padding-large" id="about">
+      <div class="about container" style="margin-bottom: 0px; padding-bottom: 0px;">
         <div class="text-one">
-          <div class="card-title" style="justify-content: space-between;cursor: pointer;" @click="toSearch">
-            <h1 class="text-h5" style="color: rgb(24, 78, 129); font-weight: bold;"><span>研</span>究方向</h1>
-            <h3 style="font-size: 16px;">MORE</h3>
+          <div class="card-title" style="justify-content: space-between;">
+            <h1 class="text-h5" style="color: rgb(24, 78, 129); font-weight: bold;"><span>课</span>题组简介</h1>
           </div>
           <hr style="margin-top: 0px">
-          <div class="mt-8 mb-8" style="display: flex;">
-            <div class="ml-4 mr-4 mr-xl-8" style="flex-shrink: 0; min-height: 264px;">
-              <h1 class="text-h4" style="color: rgb(0, 120, 215);">医学图像分割</h1>
-              <v-list>
-                <v-list-item-group>
-                  <v-list-item class="mb4" to="/Search/MIS">
-                    <v-icon style="font-size: 16px" class="notranslate mr-2 mdi">mdi-square</v-icon>
-                    <v-list-item-title class="text-h6">前列腺分割</v-list-item-title>
-                  </v-list-item>
-                  <v-list-item class="mb4" to="/Search/MIS">
-                    <v-icon style="font-size: 16px" class="notranslate mr-2 mdi">mdi-square</v-icon>
-                    <v-list-item-title class="text-h6">胃部疾病分割</v-list-item-title>
-                  </v-list-item>
-                  <v-list-item class="mb4" to="/Search/MIS">
-                    <v-icon style="font-size: 16px" class="notranslate mr-2 mdi">mdi-square</v-icon>
-                    <v-list-item-title class="text-h6">乳腺肿瘤分割</v-list-item-title>
-                  </v-list-item>
-                  <v-list-item class="mb4" to="/Search/MIS">
-                    <v-icon style="font-size: 16px" class="notranslate mr-2 mdi">mdi-square</v-icon>
-                    <v-list-item-title class="text-h6">头颈部分割</v-list-item-title>
-                  </v-list-item>
-                </v-list-item-group>
-              </v-list>
-            </div>
-            <div class="ml-4 mr-8" style="position: relative; overflow: hidden; flex-grow: 1; min-height: 150px; align-self: center;">
-              <v-img src="../images/pic1-1.png" aspect-ratio="1.2"></v-img>
-            </div>
-          </div>
-          <div class="mt-8 mb-8" style="display: flex;">
-            <div class="ml-4 mr-4 mr-xl-8" style="flex-shrink: 0; min-height: 264px;">
-              <h1 class="text-h4" style="color: rgb(229, 89, 52);">疾病诊断预测</h1>
-              <v-list>
-                <v-list-item-group>
-                  <v-list-item class="mb4" to="/Search/DD">
-                    <v-icon style="font-size: 16px" class="notranslate mr-2 mdi">mdi-square</v-icon>
-                    <v-list-item-title class="text-h6">胃镜视频摘要</v-list-item-title>
-                  </v-list-item>
-                  <v-list-item class="mb4" to="/Search/DD">
-                    <v-icon style="font-size: 16px" class="notranslate mr-2 mdi">mdi-square</v-icon>
-                    <v-list-item-title class="text-h6">多示例疾病预测</v-list-item-title>
-                  </v-list-item>
-                  <v-list-item class="mb4" to="/Search/DD">
-                    <v-icon style="font-size: 16px" class="notranslate mr-2 mdi">mdi-square</v-icon>
-                    <v-list-item-title class="text-h6">在线学习疾病预测</v-list-item-title>
-                  </v-list-item>
-                </v-list-item-group>
-              </v-list>
-            </div>
-            <div class="ml-4 mr-8" style="position: relative; overflow: hidden; flex-grow: 1; min-height: 150px; align-self: center;">
-              <v-img src="../images/wei.png" aspect-ratio="1.2"></v-img>
-            </div>
-          </div>
-          <div class="mt-8 mb-8" style="display: flex;">
-            <div class="ml-4 mr-4 mr-xl-8" style="flex-shrink: 0; min-height: 264px;">
-              <h1 class="text-h4" style="color: rgb(118, 77, 195);">医学目标检测</h1>
-              <v-list>
-                <v-list-item-group>
-                  <v-list-item class="mb4" to="/Search/OD">
-                    <v-icon style="font-size: 16px" class="notranslate mr-2 mdi">mdi-square</v-icon>
-                    <v-list-item-title class="text-h6">淋巴结检测</v-list-item-title>
-                  </v-list-item>
-                </v-list-item-group>
-              </v-list>
-            </div>
-            <div class="ml-4 mr-8" style="position: relative; overflow: hidden; flex-grow: 1; min-height: 150px; align-self: center;">
-              <v-img src="../images/pic3.png" aspect-ratio="1.2"></v-img>
-            </div>
-          </div>
+          <div>xxxx</div>
         </div>
         <div class="text-one">
           <div class="card-title" style="justify-content: space-between;cursor: pointer;" @click="toNews">
@@ -177,10 +115,91 @@
               </v-card>
             </v-timeline-item>
           </v-timeline>
+        </div>
+      </div>
 
-          <div class="card-title pb-1 mt-16" style="justify-content: space-between;cursor: pointer;">
+      <div class="about_research container">
+        <div class="card-title" style="justify-content: space-between;cursor: pointer;" @click="toSearch">
+          <h1 class="text-h5" style="color: rgb(24, 78, 129); font-weight: bold;"><span>研</span>究方向</h1>
+          <h3 style="font-size: 16px;">MORE</h3>
+        </div>
+        <hr style="margin-top: 0px">
+        <div style="display: flex; flex-direction: row; justify-content: space-between;">
+          <div class="mt-8 mb-8" style="display: flex;flex-direction: column;width: 30%;">
+            <div class="ml-4 mr-4 mr-xl-8" style="flex-shrink: 0; min-height: 264px;">
+              <h1 class="text-h4" style="color: rgb(0, 120, 215);">医学图像分割</h1>
+              <v-list>
+                <v-list-item-group>
+                  <v-list-item class="mb4" to="/Research/MIS">
+                    <v-icon style="font-size: 16px" class="notranslate mr-2 mdi">mdi-square</v-icon>
+                    <v-list-item-title class="text-h6">前列腺分割</v-list-item-title>
+                  </v-list-item>
+                  <v-list-item class="mb4" to="/Research/MIS">
+                    <v-icon style="font-size: 16px" class="notranslate mr-2 mdi">mdi-square</v-icon>
+                    <v-list-item-title class="text-h6">胃部疾病分割</v-list-item-title>
+                  </v-list-item>
+                  <v-list-item class="mb4" to="/Research/MIS">
+                    <v-icon style="font-size: 16px" class="notranslate mr-2 mdi">mdi-square</v-icon>
+                    <v-list-item-title class="text-h6">乳腺肿瘤分割</v-list-item-title>
+                  </v-list-item>
+                  <v-list-item class="mb4" to="/Research/MIS">
+                    <v-icon style="font-size: 16px" class="notranslate mr-2 mdi">mdi-square</v-icon>
+                    <v-list-item-title class="text-h6">头颈部分割</v-list-item-title>
+                  </v-list-item>
+                </v-list-item-group>
+              </v-list>
+            </div>
+            <div class="ml-4 mr-8">
+              <v-img src="../images/pic1-1.png" aspect-ratio="1.2"></v-img>
+            </div>
+          </div>
+          <div class="mt-8 mb-8" style="display: flex;flex-direction: column;width: 30%;">
+            <div class="ml-4 mr-4 mr-xl-8" style="flex-shrink: 0; min-height: 264px;">
+              <h1 class="text-h4" style="color: rgb(229, 89, 52);">疾病诊断预测</h1>
+              <v-list>
+                <v-list-item-group>
+                  <v-list-item class="mb4" to="/Research/DD">
+                    <v-icon style="font-size: 16px" class="notranslate mr-2 mdi">mdi-square</v-icon>
+                    <v-list-item-title class="text-h6">胃镜视频摘要</v-list-item-title>
+                  </v-list-item>
+                  <v-list-item class="mb4" to="/Research/DD">
+                    <v-icon style="font-size: 16px" class="notranslate mr-2 mdi">mdi-square</v-icon>
+                    <v-list-item-title class="text-h6">多示例疾病预测</v-list-item-title>
+                  </v-list-item>
+                  <v-list-item class="mb4" to="/Research/DD">
+                    <v-icon style="font-size: 16px" class="notranslate mr-2 mdi">mdi-square</v-icon>
+                    <v-list-item-title class="text-h6">在线学习疾病预测</v-list-item-title>
+                  </v-list-item>
+                </v-list-item-group>
+              </v-list>
+            </div>
+            <div class="ml-4 mr-8">
+              <v-img src="../images/wei.png" aspect-ratio="1.2"></v-img>
+            </div>
+          </div>
+          <div class="mt-8 mb-8" style="display: flex;flex-direction: column;width: 30%;">
+            <div class="ml-4 mr-4 mr-xl-8" style="flex-shrink: 0; min-height: 264px;">
+              <h1 class="text-h4" style="color: rgb(118, 77, 195);">医学目标检测</h1>
+              <v-list>
+                <v-list-item-group>
+                  <v-list-item class="mb4" to="/Research/OD">
+                    <v-icon style="font-size: 16px" class="notranslate mr-2 mdi">mdi-square</v-icon>
+                    <v-list-item-title class="text-h6">淋巴结检测</v-list-item-title>
+                  </v-list-item>
+                </v-list-item-group>
+              </v-list>
+            </div>
+            <div class="ml-4 mr-8">
+              <v-img src="../images/pic3.png" aspect-ratio="1.2"></v-img>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about container" style="padding-top: 0px;">
+        <div class="text-one">
+          <div class="card-title pb-1 mt-16" style="justify-content: space-between;">
             <h1 class="text-h5" style="color: rgb(24, 78, 129); font-weight: bold;"><span>组</span>内活动</h1>
-            <h3 style="font-size: 16px;">MORE</h3>
           </div>
           <hr style="margin-top: 0px">        
           <v-carousel
@@ -247,39 +266,76 @@
               </v-sheet>
             </v-carousel-item>
           </v-carousel>
-          <!-- <v-slide-group
-            v-model="model"
-            class="pa-4"
-            :show-arrows=true
+        </div>
+        <div class="text-one">
+          <div class="card-title pb-1 mt-16" style="justify-content: space-between;">
+            <h1 class="text-h5" style="color: rgb(24, 78, 129); font-weight: bold;"><span>合</span>作单位</h1>
+          </div>
+          <hr style="margin-top: 0px">        
+          <v-carousel
+            cycle
+            height="260"
+            hide-delimiter-background
+            show-arrows-on-hover
+            style="width: 420px; margin: auto; margin-top: 10px;"
+            interval="1500"
           >
-            <v-slide-item>
-              <v-card
-                class="ma-4"
-                height="160"
-                width="220"
-              >
-                <v-img class="white--text align-end" src="../images/school.jpg"/>
-              </v-card>
-            </v-slide-item>
-            <v-slide-item>
-              <v-card
-                class="ma-4"
-                height="160"
-                width="220"
-              >
-                <v-img class="white--text align-end" src="../images/bk.jpg"/>
-              </v-card>
-            </v-slide-item>
-            <v-slide-item>
-              <v-card
-                class="ma-4"
-                height="160"
-                width="220"
-              >
-                <v-img class="white--text align-end" src="../images/logo_lab.png"/>
-              </v-card>
-            </v-slide-item>
-          </v-slide-group> -->
+            <v-carousel-item>
+              <v-sheet>
+                <v-row
+                  class="fill-height"
+                  align="center"
+                  justify="center"
+                >
+                  <v-img src="../images/bk4.jpg" ></v-img>
+                </v-row>
+              </v-sheet>
+            </v-carousel-item>
+            <v-carousel-item>
+              <v-sheet>
+                <v-row
+                  class="fill-height"
+                  align="center"
+                  justify="center"
+                >
+                  <v-img src="../images/school.jpg" ></v-img>
+                </v-row>
+              </v-sheet>
+            </v-carousel-item>
+            <v-carousel-item>
+              <v-sheet>
+                <v-row
+                  class="fill-height"
+                  align="center"
+                  justify="center"
+                >
+                  <v-img src="../images/bk2.png" ></v-img>
+                </v-row>
+              </v-sheet>
+            </v-carousel-item>
+            <v-carousel-item>
+              <v-sheet>
+                <v-row
+                  class="fill-height"
+                  align="center"
+                  justify="center"
+                >
+                  <v-img src="../images/bk3.jpg" ></v-img>
+                </v-row>
+              </v-sheet>
+            </v-carousel-item>
+            <v-carousel-item>
+              <v-sheet>
+                <v-row
+                  class="fill-height"
+                  align="center"
+                  justify="center"
+                >
+                  <v-img src="../images/bk.jpg" ></v-img>
+                </v-row>
+              </v-sheet>
+            </v-carousel-item>
+          </v-carousel>
         </div>
       </div>
       <v-footer
@@ -307,9 +363,11 @@
     methods: {
       toNews() {
         this.$router.push('/News');
+        scrollTo(0, 0);
       },
       toSearch() {
-        this.$router.push('/Search');
+        this.$router.push('/Research');
+        scrollTo(0, 0);
       }
     },
 } 
@@ -541,8 +599,15 @@
     display: flex;
     gap: 20px;
     padding: 50px 25px;
-    margin-bottom: 50px;
+    padding-bottom: 80px;
   }
+
+  
+  .about_research {
+    min-height: 400px;
+    padding: 0px 25px;
+  }
+
   
   .about-us {
     min-height: 400px;
@@ -562,25 +627,19 @@
     flex-wrap: wrap;
   }
 
-  .about .text-one .card-title h3{
-    font-family: Roboto,sans-serif;
-  }
-
   .about .text-one .card-title span{
     font-size: 36px;
   }
-  
-  .about .text-one h2 {
-    font-size: var(--font-3x-large);
-    width: max-content;
+
+  .about_research .card-title{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .about_research .card-title span{
+    font-size: 36px;
   }
   
-  .about .text-one p {
-    font-size: var(--font-medium-large);
-  }
-  
-  .about .text-one a {
-    width: max-content;
-  }
   
   </style>

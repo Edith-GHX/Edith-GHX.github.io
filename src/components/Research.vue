@@ -14,10 +14,13 @@
               <v-tab to="/Home">
                 <span style="font-size: 1.1rem; font-family: Roboto,sans-serif; color: white;">首页</span>
               </v-tab>
-              <v-tab to="/Search" class="pl-4 pr-4">
+              <v-tab to="/News" class="pl-4 pr-4">
+                <span style="font-size: 1.1rem; font-family: Roboto,sans-serif; color: white;">新闻</span>
+              </v-tab>
+              <v-tab to="/Research" class="pl-4 pr-4">
                 <span style="font-size: 1.1rem; font-family: Roboto,sans-serif; color: white;">研究方向</span>
               </v-tab>
-              <v-tab to="/News" class="pl-4 pr-4">
+              <v-tab to="/Results" class="pl-4 pr-4">
                 <span style="font-size: 1.1rem; font-family: Roboto,sans-serif; color: white;">研究成果</span>
               </v-tab>
               <v-tab to="/Team" class="pl-4 pr-4">
@@ -26,17 +29,20 @@
               <v-tab to="/Contact" class="pl-4 pr-4">
                 <span style="font-size: 1.1rem; font-family: Roboto,sans-serif; color: white;">联系我们</span>
               </v-tab>
+              <v-tab to="/en" class="pl-4 pr-4">
+                <span style="font-size: 1rem; font-family: Roboto,sans-serif; color: white; text-transform: none;">English</span>
+              </v-tab>
             </v-tabs>
-            </div>
+          </div>
         </v-toolbar>
       </header>
   
       <div class="content" style="margin-bottom: 100px;">
         <v-tabs background-color="transparent" style="margin-top: 20px; margin-left: 50px; margin-right: 50px; width: auto;">
-          <v-tab class="text-h5 font-weight-bold" to="/Search"> 研究方向 </v-tab>
-          <v-tab class="text-h5 font-weight-bold" to="/Search/MIS"> 医学图像分割 </v-tab>
-          <v-tab class="text-h5 font-weight-bold" to="/Search/DD"> 疾病诊断预测 </v-tab>
-          <v-tab class="text-h5 font-weight-bold" to="/Search/OD"> 医学目标检测 </v-tab>
+          <v-tab class="text-h5 font-weight-bold" to="/Research"> 研究方向 </v-tab>
+          <v-tab class="text-h5 font-weight-bold" to="/Research/MIS"> 医学图像分割 </v-tab>
+          <v-tab class="text-h5 font-weight-bold" to="/Research/DD"> 疾病诊断预测 </v-tab>
+          <v-tab class="text-h5 font-weight-bold" to="/Research/OD"> 医学目标检测 </v-tab>
         </v-tabs>
         <div class="flexCont" style="display: flex;flex-wrap: wrap;flex-direction: row;justify-content: space-between;margin:auto;width: 90%;">
             <v-card>

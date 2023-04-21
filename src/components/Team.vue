@@ -14,10 +14,13 @@
               <v-tab to="/Home">
                 <span style="font-size: 1.1rem; font-family: Roboto,sans-serif; color: white;">首页</span>
               </v-tab>
-              <v-tab to="/Search" class="pl-4 pr-4">
+              <v-tab to="/News" class="pl-4 pr-4">
+                <span style="font-size: 1.1rem; font-family: Roboto,sans-serif; color: white;">新闻</span>
+              </v-tab>
+              <v-tab to="/Research" class="pl-4 pr-4">
                 <span style="font-size: 1.1rem; font-family: Roboto,sans-serif; color: white;">研究方向</span>
               </v-tab>
-              <v-tab to="/News" class="pl-4 pr-4">
+              <v-tab to="/Results" class="pl-4 pr-4">
                 <span style="font-size: 1.1rem; font-family: Roboto,sans-serif; color: white;">研究成果</span>
               </v-tab>
               <v-tab to="/Team" class="pl-4 pr-4">
@@ -26,8 +29,11 @@
               <v-tab to="/Contact" class="pl-4 pr-4">
                 <span style="font-size: 1.1rem; font-family: Roboto,sans-serif; color: white;">联系我们</span>
               </v-tab>
+              <v-tab to="/en" class="pl-4 pr-4">
+                <span style="font-size: 1rem; font-family: Roboto,sans-serif; color: white; text-transform: none;">English</span>
+              </v-tab>
             </v-tabs>
-            </div>
+          </div>
         </v-toolbar>
       </header>
 
@@ -50,15 +56,23 @@
               <v-card-subtitle class="font-weight-bold text-h5 pb-0">王帅</v-card-subtitle>
               <v-card-text class="text--primary text-subtitle-1 pt-0 pb-0" style="text-align: center;">Shuai Wang </v-card-text>
               <v-card-text class="text--primary text-body-1 pt-0 pb-0" style="text-align: center;">研究员, 博士生导师</v-card-text>
-              <v-card-text class="text--primary text-subtitle-2 pt-0" style="text-align: center;">https://scholar.google.com/citations?user=xUC3rsQAAAAJ&hl=zh-CN</v-card-text>
+              <v-card-text class="text--primary text-subtitle-2 pt-0" style="text-align: center;">
+                <a href="https://scholar.google.com/citations?user=xUC3rsQAAAAJ&hl=zh-CN" style="text-decoration: none;">https://scholar.google.com/citations?user=xUC3rsQAAAAJ&hl=zh-CN</a>
+              </v-card-text>
             </v-card>
             <div class="pa-4 ma-4" style="font-size: 16px; width: 70%;;">              
               王帅，于2017年在中国科学院大学获得博士学位，而后分别在中国科学院沈阳自动化研究所机器人学国家重点实验室担任助理研究员、北卡罗来纳大学教堂山分校（UNC）担任博士后研究员、美国国立卫生研究院（NIH）担任客座研究员、山东大学担任研究员。现为杭州电子科技大学研究员。
+              <br>
               研究方向：医学影像人工智能、机器视觉、大数据分析。
+              <br>
               科研项目：主持国家自然科学基金项目2项、省部级项目2项、横向项目1项。作为主要参与人参与浙江省自然科学基金重大项目（创新群体）1项。
+              <br>
               论文发表：发表高水平学术论文50余篇，其中SCI收录30余篇。
+              <br>
               学术奖励：获得辽宁省自然科学学术成果奖二等奖、三等奖以及国际图像处理知名会议ICIP Travel Grant等。
+              <br>
               学术任职：担任Frontiers in Neuroinformatics及Artificial Intelligence in Radiology特邀副主编；IJCAI、AAAI等CCF-A类会议PC Member；国际会议IPODT大会主席、ICIRA分会主席。
+              <br>
               学生培养：指导学生获得Kaggle UW-Madison GI Tract Image Segmentation银牌（全球排名 54/1548）；Kaggle HuBMAP + HPA - Hacking the Human Body银牌（全球排名 31/1175）；中国国际“互联网+”大学生创新创业大赛银奖。
             </div>
           </div>

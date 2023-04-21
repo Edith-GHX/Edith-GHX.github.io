@@ -3,34 +3,33 @@
     <header>
       <v-toolbar style="height:82px;display: fixed;background-color: #8ac5ff;">
         <div class="d-flex align-center" style="position: absolute; margin: 4px 0px; padding: 0px 16px; height: 74px; top: 0%; left: 0%; transform: translate(0%, 0%) scale(1); cursor: pointer;">
-          <img src="../images/logo.png" class="mr-2" style="height: 74px;">
+          <img src="../../images/logo.png" class="mr-2" style="height: 74px;">
           <div style="width: 400px; visibility: visible;color: white;">
-            <span class="text-h5 font-weight-bold">医学影像人工智能实验室</span><br>
-            <span class="subtitle-1" style="line-height: 1.2rem; font-size: 12px;">Laboratory of Artificial Intelligence in Medical Imaging</span>
+            <span class="text-h5 font-weight-bold">Laboratory of Artificial Intelligence in Medical Imaging</span><br>
           </div>
         </div>
         <div style="position: absolute;top: 34px;right: 0px; margin-right: 16px;height: 78px;opacity: 1;">
           <v-tabs background-color="#8ac5ff">
-            <v-tab to="/Home">
-              <span style="font-size: 1.1rem; font-family: Roboto,sans-serif; color: white;">首页</span>
+            <v-tab to="/en">
+              <span style="font-size: 1.1rem; font-family: Roboto,sans-serif; color: white;">About</span>
             </v-tab>
-            <v-tab to="/News" class="pl-4 pr-4">
-              <span style="font-size: 1.1rem; font-family: Roboto,sans-serif; color: white;">新闻</span>
+            <v-tab to="/en/News" class="pl-4 pr-4">
+              <span style="font-size: 1.1rem; font-family: Roboto,sans-serif; color: white;">News</span>
             </v-tab>
-            <v-tab to="/Research" class="pl-4 pr-4">
-              <span style="font-size: 1.1rem; font-family: Roboto,sans-serif; color: white;">研究方向</span>
+            <v-tab to="/en/Research" class="pl-4 pr-4">
+              <span style="font-size: 1.1rem; font-family: Roboto,sans-serif; color: white;">Research</span>
             </v-tab>
-            <v-tab to="/Results" class="pl-4 pr-4">
-              <span style="font-size: 1.1rem; font-family: Roboto,sans-serif; color: white;">研究成果</span>
+            <v-tab to="/en/Results" class="pl-4 pr-4">
+              <span style="font-size: 1.1rem; font-family: Roboto,sans-serif; color: white;">Publications</span>
             </v-tab>
-            <v-tab to="/Team" class="pl-4 pr-4">
-              <span style="font-size: 1.1rem; font-family: Roboto,sans-serif; color: white;">团队成员</span>
+            <v-tab to="/en/Team" class="pl-4 pr-4">
+              <span style="font-size: 1.1rem; font-family: Roboto,sans-serif; color: white;">Team</span>
             </v-tab>
-            <v-tab to="/Contact" class="pl-4 pr-4">
-              <span style="font-size: 1.1rem; font-family: Roboto,sans-serif; color: white;">联系我们</span>
+            <v-tab to="/en/Contact" class="pl-4 pr-4">
+              <span style="font-size: 1.1rem; font-family: Roboto,sans-serif; color: white;">Contact</span>
             </v-tab>
-            <v-tab to="/en" class="pl-4 pr-4">
-              <span style="font-size: 1rem; font-family: Roboto,sans-serif; color: white; text-transform: none;">English</span>
+            <v-tab to="/home" class="pl-4 pr-4">
+              <span style="font-size: 1rem; font-family: Roboto,sans-serif; color: white; text-transform: none;">Chinese</span>
             </v-tab>
           </v-tabs>
         </div>
@@ -45,7 +44,7 @@
             2022-07 
           </div>
           <div class="text-h6 col col-9">
-            一项研究工作被xx录用
+            Congratulations to xxx's paper accepted by xxx!
           </div>
         </div>
         <div class="pa-0 col col-12">
@@ -58,7 +57,7 @@
             2022-07 
           </div>
           <div class="text-h6 col col-9">
-            一项研究工作被xx录用
+            Congratulations to xxx's paper accepted by xxx!
           </div>
           </div>
           <div class="pa-0 col col-12">
@@ -72,7 +71,7 @@
             2022-07 
           </div>
           <div class="text-h6 col col-9">
-            一项研究工作被xx录用
+            Congratulations to xxx's paper accepted by xxx!
           </div>
           </div>
           <div class="pa-0 col col-12">
@@ -91,7 +90,7 @@
         cols="12"
         class="text-center white--text pb-0 pt-0"
       >
-        {{ new Date().getFullYear() }} — 杭州电子科技大学智能信息处理实验室
+        {{ new Date().getFullYear() }} — Hangzhou Dianzi University
       </v-col>
     </v-footer>
   </div>
