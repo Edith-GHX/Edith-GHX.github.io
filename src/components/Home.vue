@@ -58,10 +58,10 @@
               <v-card class="pt-2 pb-2 pl-4 pr-4">
               <v-card-text>
                 <span class="font-weight-bold text-body-1 mr-3 indigo--text">
-                  2023-01
+                  2024-02
                 </span>
                 <span class="text--primary text-body-1 link_title">
-                  一项工作被xx录用
+                  王帅教授及其团队科研成果进入 SSRN 下载排行量前十!
                 </span>
               </v-card-text>
             </v-card>
