@@ -55,20 +55,7 @@
         <div class="col-md-9 col-12 pa-0" style="display: flex;">
           <div class="text-h6 col col-3 cyan--text" style="display: flex;">
             <v-icon style="font-size: 16px" class="notranslate mr-2 mdi theme--light cyan--text">mdi-circle</v-icon>
-            2022-07 
-          </div>
-          <div class="text-h6 col col-9">
-            一项研究工作被xx录用
-          </div>
-          </div>
-          <div class="pa-0 col col-12">
-            <hr class="v-divider theme--light">
-          </div>
-
-
-          <div class="col-md-9 col-12 pa-0" style="display: flex;">
-          <div class="text-h6 col col-3 red--text" style="display: flex;">
-            <v-icon style="font-size: 16px" class="notranslate mr-2 mdi theme--light red--text">mdi-circle</v-icon>
+            
             2022-07 
           </div>
           <div class="text-h6 col col-9">
