@@ -41,10 +41,10 @@
         <div class="col-md-9 col-12 pa-0" style="display: flex;">
           <div class="text-h6 col col-3 indigo--text" style="display: flex;">
             <v-icon style="font-size: 16px" class="notranslate mr-2 mdi theme--light indigo--text">mdi-circle</v-icon>
-            2024-02 
+             2022-07  
           </div>
           <div class="text-h6 col col-9">
-            王帅教授及其团队科研成果进入 SSRN 下载排行量前十!
+            Congratulations to xxx's paper accepted by xxx!
           </div>
         </div>
         <div class="pa-0 col col-12">
